@@ -1,0 +1,17 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js script running on computer to transfer data from serial port to backend",
+  "main": "serialReader.js",
+  "scripts": {
+    "test": "",
+    "start": "node serialReader.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "serialport": "^9.0.6"
+  }
+}
